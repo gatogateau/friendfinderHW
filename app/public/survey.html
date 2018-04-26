@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+
+
+    <!-- Latest compiled and minified CSS & JS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <!-- Font Awesome Glyphicons -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+    <!-- Chosen -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Survey</h1>
+
+        <h2>Name (required)</h2>
+        <input type="text" id="name" class="form-control" required>
+
+        <br>
+        <h2>link to photo (required)</h2>
+        <input type="text" id="photo" class="form-control" required>
+
+        <br>
+        <div id="question1">
+            <h2>
+                <strong>Question 1</strong>
+            </h2>
+            <h4>You prefer to be outdoor activities, rather than indoor activities</h4>
+            <input type="text" id="q1" class="selected" required> enter 1-5, 1 = strongly disagree and 5 = strongly agree
+
+            <!-- <select class="chosen-select" id="q7">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree) </option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select> -->
+        </div>
+
+        <br>
+        <div id="question2">
+            <h2>
+                <strong>Question 2</strong>
+            </h2>
+            <h4>Speaking your mind is better than keeping thoughts to yourself</h4>
+            <input type="text" id="q2" class="selected" required> enter 1-5, 1 = strongly disagree and 5 = strongly agree
+
+            <!-- <label class="radio-inline">
+                <input type="radio" name="optradio">1 (strongly disagree)</label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio">2 (somewhat disagree)</label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio">3 (neutral)</label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio">4 (somewhat agree)</label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio">5 (strongly agree)</label> -->
+        </div>
+
+        <br>
+        <div id="question3">
+            <h2>
+                <strong>Question 3</strong>
+            </h2>
+            <h4>You are comfortable with stress in your life, and in fact thrive with it</h4>
+            <input type="text" id="q3" class="selected" required> enter 1-5, 1 = strongly disagree and 5 = strongly agree
+
+            <!-- <label class="radio-inline">
+                <input type="radio" name="optradio">1 (strongly disagree)</label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio">2 (somewhat disagree)</label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio">3 (neutral)</label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio">4 (somewhat agree)</label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio">5 (strongly agree)</label> -->
+        </div>
+
+        <br>
+        <div id="question4">
+            <h2>
+                <strong>Question 4</strong>
+
+            </h2>
+            <h4>Having money is more important than having experiences</h4>
+            <input type="text" id="q4" class="selected" required> enter 1-5, 1 = strongly disagree and 5 = strongly agree
+
+            <!-- <label class="radio-inline">
+                <input type="radio" name="optradio">1 (strongly disagree)</label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio">2 (somewhat disagree)</label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio">3 (neutral)</label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio">4 (somewhat agree)</label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio">5 (strongly agree)</label> -->
+        </div>
+
+        <br>
+        <div id="question5">
+            <h2>
+                <strong>Question 5</strong>
+            </h2>
+            <h4>You often find yourself day dreaming</h4>
+            <input type="text" id="q5" class="selected" required> enter 1-5, 1 = strongly disagree and 5 = strongly agree
+
+            <!-- <label class="radio-inline">
+                <input type="radio" name="optradio">1 (strongly disagree)</label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio">2 (somewhat disagree)</label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio">3 (neutral)</label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio">4 (somewhat agree)</label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio">5 (strongly agree)</label> -->
+        </div>
+
+        <br>
+        <div id="question6">
+            <h2>
+                <strong>Question 6</strong>
+            </h2>
+            <h4>Rules were made to be broken</h4>
+            <input type="text" id="q6" class="selected" required> enter 1-5, 1 = strongly disagree and 5 = strongly agree
+
+            <!-- <label class="radio-inline">
+                <input type="radio" name="optradio">1 (strongly disagree)</label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio">2 (somewhat disagree)</label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio">3 (neutral)</label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio">4 (somewhat agree)</label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio">5 (strongly agree)</label> -->
+        </div>
+
+        <br>
+        <div id="question7">
+            <h2>
+                <strong>Question 7</strong>
+            </h2>
+            <h4>It takes work to maintain any type of relationship</h4>
+            <input type="text" id="q7" class="selected" required> enter 1-5, 1 = strongly disagree and 5 = strongly agree
+
+            <!-- <label class="radio-inline">
+                <input type="radio" name="optradio">1 (strongly disagree)</label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio">2 (somewhat disagree)</label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio">3 (neutral)</label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio">4 (somewhat agree)</label>
+            <label class="radio-inline"> -->
+            <!-- <input type="radio" name="optradio">5 (strongly agree)</label> -->
+        </div>
+
+        <br>
+        <div id="question8">
+            <h2>
+                <strong>Question 8</strong>
+            </h2>
+            <h4>Before taking on task, you ask yourself "is the juice worth the squeeze"?</h4>
+            <input type="text" id="q8" class="selected" required> enter 1-5, 1 = strongly disagree and 5 = strongly agree
+
+            <!-- <label class="radio-inline">
+                <input type="radio" name="optradio">1 (strongly disagree)</label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio">2 (somewhat disagree)</label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio">3 (neutral)</label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio">4 (somewhat agree)</label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio">5 (strongly agree)</label> -->
+        </div>
+
+        <br>
+        <div id="question9">
+            <h2>
+                <strong>Question 9</strong>
+            </h2>
+            <h4>Maintaining an appearance is important</h4>
+            <input type="text" id="q9" class="selected" required> enter 1-5, 1 = strongly disagree and 5 = strongly agree
+
+            <!-- <label class="radio-inline">
+                <input type="radio" name="optradio">1 (strongly disagree)</label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio">2 (somewhat disagree)</label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio">3 (neutral)</label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio">4 (somewhat agree)</label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio">5 (strongly agree)</label> -->
+        </div>
+        <br>
+
+        <div id="question10">
+            <h2>
+                <strong>Question 10</strong>
+            </h2>
+            <h4>You become more energized afer being around crowds, than taking some alone time</h4>
+
+            <input type="text" id="q10" class="selected" required> enter 1-5, 1 = strongly disagree and 5 = strongly agree
+            <!-- <label class="radio-inline">
+                <input type="radio" name="optradio">1 (strongly disagree)</label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio">2 (somewhat disagree)</label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio">3 (neutral)</label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio">4 (somewhat agree)</label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio">5 (strongly agree)</label> -->
+        </div>
+
+
+        <br>
+        <br>
+
+
+
+        <button class="btn btn-primary btn-lg btn-block" id="submit">Submit</button>
+        <br>
+    </div>
+    <br>
+    </div>
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <p>
+                <a href="/api/friends">API Friends List</a> |
+                <a href="https://github.com/afhaque/friendfinder">GitHub</a> |
+                <a href="placeholder for git hub portfolio">Portfolio
+                    <a></a>
+            </p>
+        </div>
+    </footer>
+
+    </div>
+    <!-- add Modal for the response: -->
+    <div id="results-modal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <!-- modal content -->
+            <div class="modal-content">
+                <div dlass="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h2 class="modal-title">
+                        <strong>Best Match</strong>
+                    </h2>
+                </div>
+                <div class="modal-body">
+                    <h2 id="match-name" ></h2>
+                        <img id="match-img" src="placeholder.jpg" alt="here is a picture">
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script type="text/javascript">
+    var friends=require("../data/friends")
+
+        // capture the form input
+        $("#submit").on("click", function (event) {
+            event.preventDefault();
+
+            // validate the forms
+            function validateForm() {
+                var isValid = true;
+                $(".form-control").each(function () {
+                    if ($(this).val() === "") {
+                        isValid = false;
+                    }
+                });
+                $(".selected").each(function () {
+                    if ($(this).val() == "") {
+                        isValid = false;
+                    }
+                });
+                return isValid;
+
+            }
+            if (validateForm()) {
+                var userData = {
+                    name: $("#name").val(),
+                    photo: $("#photo").val(),
+                    scores: [
+                        $("#q1").val(),
+                        $("#q2").val(),
+                        $("#q3").val(),
+                        $("#q4").val(),
+                        $("#q5").val(),
+                        $("#q6").val(),
+                        $("#q7").val(),
+                        $("#q8").val(),
+                        $("#q9").val(),
+                        $("#q10").val(),
+                    ]
+                };
+                // post to api table api/friends
+
+                // app.post("/api/tables", function (req, res) {
+                //     // Note the code here. Our "server" will respond to requests and let users know if they have a table or not.
+                //     // It will do this by sending out the value "true" have a table
+                //     // req.body is available since we're using the body-parser middleware
+                //     if (tableData.length < 5) {
+                //         tableData.push(req.body);
+                //         res.json(true);
+                //     } else {
+                //         waitListData.push(req.body);
+                //         res.json(false);
+                //     }
+                // });
+
+
+
+
+
+
+
+
+                $.post("/api/friends", userData, function (data) {
+
+                    // code for the best match
+                    // compare for the best match.
+                    // user for loop for friends.
+
+
+
+                    // get data fro ajax post to match the name, data.name changes to result of loop.
+                    $("#match-name").text(data.name);
+                    $("#match-img").attr("src", data.photo);
+                    $("#results-modal").modal("toggle");
+
+                    // show the best match
+// push userData to api friends
+friends.push(userData);
+
+
+                });
+            } else {
+                alert("please fill out all the fields before submitting")
+            }
+        })
+    </script>
+</body>
+
+
+</html>
